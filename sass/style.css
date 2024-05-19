@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .part-two-footer .two-section {
+    gap: 40px !important;
+  }
+  .sections .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  /*------------- start style of info-user--------------*/
+  .info-user {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    gap: 10px;
+  }
+  .info-user .search {
+    padding-bottom: 15px;
+  }
+  .hero-footer .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  /*------------- end style of info-user--------------*/
+  /*------------- start style of burgle meniu--------------*/
+  .burgle {
+    display: block;
+    cursor: pointer;
+  }
+  .full-screen {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    height: 400px;
+    z-index: 100;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .full-screen .together {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+    background-color: #937314;
+    position: absolute;
+    -webkit-transition: 1s;
+    transition: 1s;
+    left: 100%;
+    width: 100%;
+  }
+  .full-screen .together > .deliver {
+    padding-bottom: 15px;
+    gap: 10px;
+  }
+  /*------------- end style of burgle meniu--------------*/
+}
+
+@media (min-width: 940px) {
+  .media {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-center {
+    padding: 20px 0;
+  }
+  .form-center .subscribe {
+    padding: 20px 0px;
+  }
+  /*------start style full-screen for header-------*/
+  .full-screen {
+    right: 12px;
+  }
+  /*------end style full-screen for header-------*/
+  .form .subscribe > div {
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+    padding-left: 0 !important;
+  }
+  /*--------------section of starving---------------*/
+  .starv-up .text-starv {
+    padding-top: 50px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

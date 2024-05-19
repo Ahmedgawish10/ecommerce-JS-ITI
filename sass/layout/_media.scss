@@ -1,0 +1,94 @@
+// media for sm screen
+@media (max-width: 768px) {
+  .part-two-footer .two-section {
+
+    gap: 40px !important;
+    }
+  .sections .section1 {
+    display: flex;
+    flex-wrap: wrap !important;
+  }
+  /*------------- start style of info-user--------------*/
+  .info-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px;
+    & .search{
+        padding-bottom: 15px;
+    }
+  }
+  .hero-footer .right {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+  /*------------- end style of info-user--------------*/
+  /*------------- start style of burgle meniu--------------*/
+  .burgle {
+    display: block;
+    cursor: pointer;
+  }
+  .full-screen {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    transition: 1s;
+    height: 400px;
+    z-index: 100;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    & .together{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #937314;
+        position: absolute;
+        transition: 1s;
+        left: 100%;
+        width: 100%;
+        & > .deliver{
+            padding-bottom: 15px;   
+            gap: 10px;   
+     }
+    }
+  }
+  /*------------- end style of burgle meniu--------------*/
+}
+// media for md screen.
+// @media (min-width: 706px) {
+//   /*------------- start style private box-------------*/
+// }
+//media from 940px and more than it
+@media (min-width: 940px) {
+  .media {
+    padding-top: 0px;
+  }
+
+}
+//media less than 768px 
+@media (max-width: 500px) {
+    .form-center{
+        padding: 20px 0;
+        & .subscribe{
+            padding: 20px 0px;
+        }
+       
+    }
+/*------start style full-screen for header-------*/
+.full-screen {
+    right: 12px;
+}
+/*------end style full-screen for header-------*/
+ 
+  .form .subscribe > div {
+    padding-top: 20px !important;
+    padding-bottom: 20px;
+    padding-left: 0 !important;
+  }
+  /*--------------section of starving---------------*/
+ .starv-up .text-starv {
+    padding-top: 50px !important;
+  }
+}
