@@ -49,6 +49,7 @@ btnLogin.addEventListener("click", function () {
       textMessageLogin.innerHTML = "correct user ";
       textMessageLogin.style.color = "green";
       sessionStorage.setItem("currentUser", user.name);
+      localStorage.setItem("userName",user.name)
       window.location.href = "index.html";
     }
   } else {

@@ -7,6 +7,8 @@ var btnLogout = document.querySelector("#logout");
 
 btnLogout.addEventListener("click", function () {
   localStorage.removeItem('Users')
+  localStorage.removeItem('userName')
+
   sessionStorage.clear();
   window.location.href = "login.html"; 
 

@@ -8,9 +8,9 @@ console.log(allUsers);
 
 //localStorage.getItem("Users")
 if (sessionStorage.currentUser|| allUsers.length > 0) {
-    console.log("hi",sessionStorage.currentUser);
+    console.log("hi",localStorage.userName);
     var profile = document.querySelector(".current_user");
-    profile.textContent=sessionStorage.currentUser
+    profile.textContent=localStorage.userName
     document.body.style.display = "block";
 // console.log(d);
     
