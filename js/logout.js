@@ -9,7 +9,7 @@ btnLogout.addEventListener("click", function () {
   //window.location.href = "index.html";
   console.log(arrayinputs);
  // console.log(localStorage.getItem("inputs"));
-  localStorage.removeItem('inputs')
+  localStorage.removeItem('Users')
   sessionStorage.clear();
   window.location.href = "login.html"; 
 
