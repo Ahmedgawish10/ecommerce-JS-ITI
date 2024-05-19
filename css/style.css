@@ -1224,7 +1224,9 @@ justify-content: flex-end;
     margin-bottom: 0 !important;
 
 }
-
+.login,#signup{
+    padding: 4px;
+}
 .login-container{
     display: flex;
     justify-content: center;
